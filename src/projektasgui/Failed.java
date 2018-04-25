@@ -48,6 +48,11 @@ public class Failed extends javax.swing.JFrame {
         jLabel1.setText("Pasirink 1, nes tu debils ir nemoki pw parasyt:");
 
         jCheckBox1.setText("As autistas");
+        jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox1ActionPerformed(evt);
+            }
+        });
 
         jCheckBox2.setText("10 IQ");
         jCheckBox2.addActionListener(new java.awt.event.ActionListener() {
@@ -107,15 +112,19 @@ public class Failed extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void BackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BackActionPerformed
-        login l = new login();
-        l.setVisible (true);
-        close();
+   //     login l = new login();
+     //   l.setVisible (true);
+       // close();
         
     }//GEN-LAST:event_BackActionPerformed
 
     private void jCheckBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox2ActionPerformed
+
+    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBox1ActionPerformed
 
     /**
      * @param args the command line arguments
